@@ -41,5 +41,17 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Ride</string>
+	<key>NSLocationUsageDescription</key>
+	<string>Ride</string>
+	<key>CFBundleDisplayName</key>
+	<string></string>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Ride</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Ride</string>
 </dict>
 </plist>

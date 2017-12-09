@@ -7,13 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F0C4D491FA625BC00E43B04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0C4D481FA625BC00E43B04 /* AppDelegate.swift */; };
-		3F0C4D4B1FA625BC00E43B04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0C4D4A1FA625BC00E43B04 /* ViewController.swift */; };
+		35222A06AFD3E198413AA8B5 /* Pods_Ride.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E044B68E005AED10FB714D42 /* Pods_Ride.framework */; };
+		3F06CBCB1FDB567E0036D312 /* RecoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F06CBCA1FDB567E0036D312 /* RecoveryViewController.swift */; };
+		3F0C4D4B1FA625BC00E43B04 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0C4D4A1FA625BC00E43B04 /* LoginViewController.swift */; };
 		3F0C4D4E1FA625BC00E43B04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C4D4C1FA625BC00E43B04 /* Main.storyboard */; };
 		3F0C4D501FA625BC00E43B04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C4D4F1FA625BC00E43B04 /* Assets.xcassets */; };
 		3F0C4D531FA625BC00E43B04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C4D511FA625BC00E43B04 /* LaunchScreen.storyboard */; };
 		3F0C4D5E1FA625BC00E43B04 /* RideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0C4D5D1FA625BC00E43B04 /* RideTests.swift */; };
 		3F0C4D691FA625BC00E43B04 /* RideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0C4D681FA625BC00E43B04 /* RideUITests.swift */; };
+		3F0C4D771FA62EF700E43B04 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0C4D761FA62EF700E43B04 /* RegisterViewController.swift */; };
+		3F0C4D791FA645EC00E43B04 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0C4D781FA645EC00E43B04 /* HomeViewController.swift */; };
+		3F0D8AE61FAD4E1200C41BB4 /* BillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D8AE51FAD4E1200C41BB4 /* BillViewController.swift */; };
+		3F0D8AE81FAD527A00C41BB4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F0D8AE71FAD527A00C41BB4 /* MapKit.framework */; };
+		3F0D8AEA1FAD565700C41BB4 /* PinIt!.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D8AE91FAD565700C41BB4 /* PinIt!.swift */; };
+		3F17B0D11FD66A24005F3880 /* RidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F17B0D01FD66A24005F3880 /* RidesViewController.swift */; };
+		3F45BDDD1FBFE0DF00984D85 /* LocationSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F45BDDC1FBFE0DF00984D85 /* LocationSearchTableViewController.swift */; };
+		3F654C591FAB7A8600ECFE3C /* REGISTER.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F654C581FAB7A8600ECFE3C /* REGISTER.swift */; };
+		3F654C5D1FAD38C500ECFE3C /* RecoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F654C5C1FAD38C500ECFE3C /* RecoverViewController.swift */; };
+		3F8A57B51FA6B262007D5F89 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A57B41FA6B262007D5F89 /* DatabaseManager.swift */; };
+		3F8A57F01FA7C8C5007D5F89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0C4D481FA625BC00E43B04 /* AppDelegate.swift */; };
+		3FC45FBB1FD51232009C85F3 /* BillCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC45FBA1FD51232009C85F3 /* BillCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +47,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F06CBCA1FDB567E0036D312 /* RecoveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoveryViewController.swift; sourceTree = "<group>"; };
 		3F0C4D451FA625BC00E43B04 /* Ride.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ride.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F0C4D481FA625BC00E43B04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F0C4D4A1FA625BC00E43B04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F0C4D4A1FA625BC00E43B04 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3F0C4D4D1FA625BC00E43B04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F0C4D4F1FA625BC00E43B04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F0C4D521FA625BC00E43B04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +61,21 @@
 		3F0C4D641FA625BC00E43B04 /* RideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F0C4D681FA625BC00E43B04 /* RideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideUITests.swift; sourceTree = "<group>"; };
 		3F0C4D6A1FA625BC00E43B04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0C4D761FA62EF700E43B04 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		3F0C4D781FA645EC00E43B04 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3F0D8AE51FAD4E1200C41BB4 /* BillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillViewController.swift; sourceTree = "<group>"; };
+		3F0D8AE71FAD527A00C41BB4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3F0D8AE91FAD565700C41BB4 /* PinIt!.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PinIt!.swift"; sourceTree = "<group>"; };
+		3F0D8AEB1FAD62DD00C41BB4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3F17B0D01FD66A24005F3880 /* RidesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidesViewController.swift; sourceTree = "<group>"; };
+		3F45BDDC1FBFE0DF00984D85 /* LocationSearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchTableViewController.swift; sourceTree = "<group>"; };
+		3F654C581FAB7A8600ECFE3C /* REGISTER.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REGISTER.swift; sourceTree = "<group>"; };
+		3F654C5C1FAD38C500ECFE3C /* RecoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoverViewController.swift; sourceTree = "<group>"; };
+		3F8A57B41FA6B262007D5F89 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		3FC45FBA1FD51232009C85F3 /* BillCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillCalculator.swift; sourceTree = "<group>"; };
+		74BA436553CA15ED3854F733 /* Pods-Ride.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ride.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ride/Pods-Ride.debug.xcconfig"; sourceTree = "<group>"; };
+		77E533D1EDEE1AF03F532F7A /* Pods-Ride.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ride.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ride/Pods-Ride.release.xcconfig"; sourceTree = "<group>"; };
+		E044B68E005AED10FB714D42 /* Pods_Ride.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ride.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +83,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F0D8AE81FAD527A00C41BB4 /* MapKit.framework in Frameworks */,
+				35222A06AFD3E198413AA8B5 /* Pods_Ride.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +112,8 @@
 				3F0C4D5C1FA625BC00E43B04 /* RideTests */,
 				3F0C4D671FA625BC00E43B04 /* RideUITests */,
 				3F0C4D461FA625BC00E43B04 /* Products */,
+				BAB765F9A9554BB3D9364FEC /* Pods */,
+				5F92EFE9AAC507A1F0C8CC1B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +131,22 @@
 			isa = PBXGroup;
 			children = (
 				3F0C4D481FA625BC00E43B04 /* AppDelegate.swift */,
-				3F0C4D4A1FA625BC00E43B04 /* ViewController.swift */,
+				3F8A57B41FA6B262007D5F89 /* DatabaseManager.swift */,
+				3F0D8AE51FAD4E1200C41BB4 /* BillViewController.swift */,
+				3F0C4D4A1FA625BC00E43B04 /* LoginViewController.swift */,
+				3F654C5C1FAD38C500ECFE3C /* RecoverViewController.swift */,
+				3F0C4D781FA645EC00E43B04 /* HomeViewController.swift */,
+				3FC45FBA1FD51232009C85F3 /* BillCalculator.swift */,
+				3F0C4D761FA62EF700E43B04 /* RegisterViewController.swift */,
 				3F0C4D4C1FA625BC00E43B04 /* Main.storyboard */,
+				3F06CBCA1FDB567E0036D312 /* RecoveryViewController.swift */,
+				3F17B0D01FD66A24005F3880 /* RidesViewController.swift */,
+				3F45BDDC1FBFE0DF00984D85 /* LocationSearchTableViewController.swift */,
 				3F0C4D4F1FA625BC00E43B04 /* Assets.xcassets */,
 				3F0C4D511FA625BC00E43B04 /* LaunchScreen.storyboard */,
 				3F0C4D541FA625BC00E43B04 /* Info.plist */,
+				3F654C581FAB7A8600ECFE3C /* REGISTER.swift */,
+				3F0D8AE91FAD565700C41BB4 /* PinIt!.swift */,
 			);
 			path = Ride;
 			sourceTree = "<group>";
@@ -125,6 +169,25 @@
 			path = RideUITests;
 			sourceTree = "<group>";
 		};
+		5F92EFE9AAC507A1F0C8CC1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F0D8AEB1FAD62DD00C41BB4 /* CoreLocation.framework */,
+				3F0D8AE71FAD527A00C41BB4 /* MapKit.framework */,
+				E044B68E005AED10FB714D42 /* Pods_Ride.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAB765F9A9554BB3D9364FEC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74BA436553CA15ED3854F733 /* Pods-Ride.debug.xcconfig */,
+				77E533D1EDEE1AF03F532F7A /* Pods-Ride.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F0C4D6D1FA625BC00E43B04 /* Build configuration list for PBXNativeTarget "Ride" */;
 			buildPhases = (
+				FA071A1B7E6353A4F98CB338 /* [CP] Check Pods Manifest.lock */,
 				3F0C4D411FA625BC00E43B04 /* Sources */,
 				3F0C4D421FA625BC00E43B04 /* Frameworks */,
 				3F0C4D431FA625BC00E43B04 /* Resources */,
+				AB64DCA85F947893EDFA90DC /* [CP] Embed Pods Frameworks */,
+				1EF6804D60F9D23C93382B97 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,6 +260,11 @@
 					3F0C4D441FA625BC00E43B04 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					3F0C4D581FA625BC00E43B04 = {
 						CreatedOnToolsVersion = 9.0;
@@ -254,13 +325,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1EF6804D60F9D23C93382B97 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Ride/Pods-Ride-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ride/Pods-Ride-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB64DCA85F947893EDFA90DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ride/Pods-Ride-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA071A1B7E6353A4F98CB338 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ride-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3F0C4D411FA625BC00E43B04 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F0C4D4B1FA625BC00E43B04 /* ViewController.swift in Sources */,
-				3F0C4D491FA625BC00E43B04 /* AppDelegate.swift in Sources */,
+				3F8A57F01FA7C8C5007D5F89 /* AppDelegate.swift in Sources */,
+				3F0C4D771FA62EF700E43B04 /* RegisterViewController.swift in Sources */,
+				3F17B0D11FD66A24005F3880 /* RidesViewController.swift in Sources */,
+				3F45BDDD1FBFE0DF00984D85 /* LocationSearchTableViewController.swift in Sources */,
+				3F0C4D4B1FA625BC00E43B04 /* LoginViewController.swift in Sources */,
+				3F654C5D1FAD38C500ECFE3C /* RecoverViewController.swift in Sources */,
+				3F06CBCB1FDB567E0036D312 /* RecoveryViewController.swift in Sources */,
+				3F8A57B51FA6B262007D5F89 /* DatabaseManager.swift in Sources */,
+				3F0D8AE61FAD4E1200C41BB4 /* BillViewController.swift in Sources */,
+				3F654C591FAB7A8600ECFE3C /* REGISTER.swift in Sources */,
+				3F0C4D791FA645EC00E43B04 /* HomeViewController.swift in Sources */,
+				3F0D8AEA1FAD565700C41BB4 /* PinIt!.swift in Sources */,
+				3FC45FBB1FD51232009C85F3 /* BillCalculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,14 +561,17 @@
 		};
 		3F0C4D6E1FA625BC00E43B04 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74BA436553CA15ED3854F733 /* Pods-Ride.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QN7QS2WJH3;
 				INFOPLIST_FILE = Ride/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = student.Ride;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pods/Backendless/SDK/ios/backendless/include/Backendless-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -439,14 +579,17 @@
 		};
 		3F0C4D6F1FA625BC00E43B04 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77E533D1EDEE1AF03F532F7A /* Pods-Ride.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QN7QS2WJH3;
 				INFOPLIST_FILE = Ride/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = student.Ride;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pods/Backendless/SDK/ios/backendless/include/Backendless-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
